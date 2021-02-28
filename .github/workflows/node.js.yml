@@ -20,9 +20,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 15.x
-    - uses: borales/actions-yarn@v2.0.0
-      with:
-        cmd: install
+    - run: npm install
     - run: npm run download
     - run: npm run process
     - uses: actions/upload-artifact@v2
