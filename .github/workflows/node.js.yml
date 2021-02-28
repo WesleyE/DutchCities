@@ -21,10 +21,10 @@ jobs:
       with:
         node-version: 15.x
     - name: Build and zip
-      run: npm ci
-      run: npm run download
-      run: npm run process
-      run: zip --junk-paths release refined_data.json readme.md
+    - run: npm ci
+    - run: npm run download
+    - run: npm run process
+    - run: zip --junk-paths release refined_data.json readme.md
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
