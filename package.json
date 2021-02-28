@@ -1,0 +1,21 @@
+{
+  "name": "dutchcities",
+  "version": "1.0.0",
+  "description": "Dutch cities: Names and Locations in WGS84 and EPSG:28992",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "node download.js"
+  },
+  "author": "Wesley Elfring <hi@wesleyelfring.nl>",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^6.3.0",
+    "cli-progress": "^3.9.0",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
+    "proj4": "^2.7.0",
+    "reproject": "^1.2.6",
+    "wicket": "^1.3.6"
+  }
+}
