@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "download": "node download.js"
+    "download": "node download.js",
+    "process": "node index.js"
   },
   "author": "Wesley Elfring <hi@wesleyelfring.nl>",
   "license": "ISC",
