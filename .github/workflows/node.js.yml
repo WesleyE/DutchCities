@@ -20,7 +20,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 15.x
-    - run: npm install
+    - run: npm ci
     - run: npm run download
     - run: npm run process
     - uses: actions/upload-artifact@v2
