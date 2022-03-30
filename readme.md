@@ -1,5 +1,7 @@
 # Dutch cities: Names and Locations in WGS84 and EPSG:28992
 
+Current version: 0.3
+
 Downloads all cities from The Netherlands from the official BAG and formats them for use.
 
 Source: https://labs.kadaster.nl/gateway & https://labs.kadaster.nl/cases/graphql-endpoint-eng
